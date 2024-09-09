@@ -1,1 +1,77 @@
 /* Add custom css styles here */
+header {
+    background-image: url('../images/coffee-biscuits.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    text-align: center;
+    background-color: black;
+    color: white;
+    opacity: 50%;
+    padding: 20px;
+    height: 30%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.store {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    padding: 40px;
+}
+.store-title {
+    text-align: center;
+}
+.cookie-image {
+    border-radius: 50%;
+}
+.about-us {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.about-us-title {
+    text-align: center;
+    position: absolute;
+    margin-bottom: 150px;
+}
+.about-us-img {
+    position: absolute;
+    left: 5%;
+    width: 150px;
+    border-radius: 50%;
+    height: 35%;
+}
+.about-us-text {
+    text-align: left;
+    left: 200px + 5%;
+    position: absolute;
+    width: 75%;
+    right: 5%;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 35%;
+    overflow: auto;
+    background-color: blue;
+    color: white;
+}
